@@ -13,10 +13,10 @@ flow:
     - send_mail:
         do:
           io.cloudslang.base.mail.send_mail:
-            - hostname: "${get('flowSmtpHost')}"
+            - hostname: '${flowSmtpHost}'
             - port: "${get_sp('smtpPort')}"
             - from: "${get_sp('fromAddress')}"
-            - to: "${get('mailTo')}"
+            - to: '${mailTo}'
             - subject: OS report
             - body: "${'the OS you have is:' + message}"
         navigate:
