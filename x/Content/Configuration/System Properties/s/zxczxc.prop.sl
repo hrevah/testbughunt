@@ -1,0 +1,3 @@
+namespace: s
+properties:
+  - ss: ''
