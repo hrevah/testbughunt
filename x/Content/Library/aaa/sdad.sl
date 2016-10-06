@@ -11,5 +11,5 @@ extensions:
   graph:
     steps:
       sdad:
-        x: 336
-        y: 127
+        x: 488
+        y: 122
